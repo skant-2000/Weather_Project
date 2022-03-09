@@ -1,0 +1,144 @@
+.main {
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.main > div {
+    padding: 20px;
+}
+
+.current {
+    text-align: left;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.current > div:nth-child(1) {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.current > div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+
+.current > div:nth-child(2) > div:nth-child(1) {
+    font-weight: 500;
+}
+
+.current > div:nth-child(2) > div:nth-child(2) {
+    font-weight: 500;
+    color: rgb(116, 126, 152);
+    margin-left: 5px;
+    border-left: 1px solid rgb(237, 235, 246);
+    padding-left: 5px;
+}
+
+.current > div:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.current > div:nth-child(3) > img {
+    width: 60px;
+    height: 60px;
+}
+
+.current > div:nth-child(3) > div:nth-child(2) {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.current > div:nth-child(3) > div:nth-child(3) {
+    font-size: 17px;
+    margin: 5px 0 0 20px;
+}
+
+.current > div:nth-child(3) > div:nth-child(3) > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.current > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) {
+    color: grey;
+}
+
+.current > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) {
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.current > div:nth-child(3) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) {
+    margin-left: 5px;
+    border-left: 1px solid rgb(237, 235, 246);
+    padding-left: 5px;
+}
+
+
+
+.daily {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.daily > div {
+    width: 11%;
+    margin: 0 6px;
+}
+
+.daily > div:nth-child(1) {
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 10px;
+}
+
+.daily > div > p:nth-child(1) {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.daily > div > img {
+    width: 50%;
+}
+
+.daily > div > p:nth-child(4) {
+    color: grey;
+}
+
+
+
+.riseSet > p {
+    font-weight: 500;
+    color: grey;
+    font-size: 20px;
+    margin: 0;
+}
+
+.riseSet > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.riseSet > div > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.riseSet > div > div:nth-child(2) {
+    border: 1px solid rgb(214, 214, 214);
+    margin: 20px 10px 0;
+    height: 25px;
+}
+
+.riseSet > div > div > p {
+    margin-left: 10px;
+    font-size: 20px;
+}
